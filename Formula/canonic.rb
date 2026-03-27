@@ -1,16 +1,16 @@
 class Canonic < Formula
   desc "AI behavioral rules, composed and distributed"
   homepage "https://github.com/parletre/canonic"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/parletre/canonic/releases/download/v0.1.2/canonic-macos-arm64"
-      sha256 "524f79438ceb7c8334182729e3c252b8206acc1bdf04277caa9520499f6f1d91"
+      url "https://github.com/parletre/canonic/releases/download/v0.1.3/canonic-macos-arm64"
+      sha256 "00ccee6888832cd693e05a4e55a050f52777dd97b260698ff3f851ddf9b715d4"
     else
-      url "https://github.com/parletre/canonic/releases/download/v0.1.2/canonic-macos-x64"
-      sha256 "7741882e9f970bae6f730c21a536e27852619b6896133c2b5768735a6238af7e"
+      url "https://github.com/parletre/canonic/releases/download/v0.1.3/canonic-macos-x64"
+      sha256 "d005a4f77bed93a9772a4ba243a2c8a2396dd50bd9895a9dcffbc4f439857512"
     end
   end
 
