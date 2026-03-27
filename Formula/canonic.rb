@@ -14,11 +14,6 @@ class Canonic < Formula
     end
   end
 
-  on_linux do
-    url "https://github.com/parletre/canonic/releases/download/v0.1.0/canonic-linux-x64"
-    sha256 "34753bc43a73c0964de6fdfc6f9e3c4f39ab765bf26ede21901bb20dcb47abf1"
-  end
-
   def install
     binary = Dir["canonic*"].first
     chmod 0755, binary
